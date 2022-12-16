@@ -1,0 +1,44 @@
+/* -----roots----- */
+
+:root{
+    --brand-color: #4D5AE5;
+}
+:root{
+    --dark-bg-color: #2E2F42;
+}
+:root{
+    --light-bg-color: #F4F4FD;
+}
+:root{
+    --primary-text-color: #434455;
+}
+:root{
+    --secondary-text-color: #8E8F99;
+}
+:root{
+    --accent-kolor: #E7E9FC;
+}
+:root{
+    --success-color: #31D0AA;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
