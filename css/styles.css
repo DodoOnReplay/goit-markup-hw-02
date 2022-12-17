@@ -16,16 +16,22 @@
     --secondary-text-color: #8E8F99;
 }
 :root{
-    --accent-kolor: #E7E9FC;
+    --accent-color: #E7E9FC;
 }
 :root{
     --success-color: #31D0AA;
 }
-
-
-.list {
-    list-style: none;
+:root{
+    --prassed-state-color: #404BBF
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    background-color: #ffffff;
+}
+
+/* ------header------ */
 
 .visually-hidden {
     position: absolute;
@@ -41,4 +47,150 @@
     overflow: hidden;
 }
 
+.list {
+    list-style: none;
+}
 
+.link{
+    text-decoration: none;
+}
+.link:hover,
+.link:focus {
+    color: var(--brand-color);
+    text-decoration-line: underline;
+}
+
+
+.header {
+    
+}
+
+.header-nav {
+}
+
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark-bg-color); 
+}
+
+.brand-color-logo {
+    color: var(--brand-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--brand-color);
+    text-decoration-line: underline;
+}
+
+.header-list {
+}
+
+.header-item {
+}
+.header-link{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-bg-color);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contacts-list{
+
+}
+
+.contacts-mail,
+.contacts-tel {
+    /* font-weight: 400; */
+    font-size: 16px;
+    line-height: 1.5
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+/* -----hero----- */
+
+.hero {
+    background-color: var(--dark-bg-color);
+    }
+.hero-title {
+    /* font-weight: 700; */
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.hero-btn {
+    background-color: var(--brand-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.19;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+ }
+
+/* -----about----- */
+
+.about {
+}
+.about-list {
+}
+.about-list-item {
+}
+.about-list-title {
+}
+.about-list-text {
+}
+
+/* -----services----- */
+
+.services {
+}
+.services-title {
+}
+.services-list {
+}
+.services-list-item {
+}
+.services-list-img {
+}
+
+/* -----team----- */
+
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-list-img {
+}
+.team-member-name {
+}
+.team-member-poisition {
+}
+
+
+/* -----footer----- */
+
+.footer {
+}
+.footer-text {
+}
