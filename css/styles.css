@@ -78,10 +78,6 @@ body{
     color: var(--brand-color);
 }
 
-.logo:hover,
-.logo:focus {
-    color: var(--brand-color);
-}
 
 /* .header-list {
 }
@@ -183,10 +179,13 @@ body{
 }
 
 /* .team-list {
+} */
+
+.team-list-item{
+    background-color: #ffffff;
 }
-.team-list-item {
-}
-.team-list-img {
+
+/* .team-list-img {
 } */
 .team-member-name {
     font-weight: 500;
