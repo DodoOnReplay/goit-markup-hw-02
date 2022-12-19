@@ -15,7 +15,7 @@
 
     --success-color: #31D0AA;
 
-    --prassed-state-color: #404BBF
+    --pressed-state-color: #404BBF
 }
 
 /* -----body----- */
@@ -124,6 +124,7 @@ body{
     color: #FFFFFF;
 }
 .hero-btn {
+    font-family: 'Roboto', sans-serif;
     background-color: var(--brand-color);
     font-weight: 700;
     font-size: 16px;
@@ -227,6 +228,7 @@ body{
 } */
 
 .portfolio-btn {
+    font-family: 'Roboto', sans-serif;
     background-color: var(--light-color);
     font-weight: 700;
     font-size: 16px;
@@ -241,7 +243,7 @@ body{
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    background-color: var(--prassed-state-color);
+    background-color: var(--pressed-state-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
