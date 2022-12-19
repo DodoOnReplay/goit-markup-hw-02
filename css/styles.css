@@ -2,26 +2,19 @@
 
 :root{
     --brand-color: #4D5AE5;
-}
-:root{
+
     --dark-color: #2E2F42;
-}
-:root{
+
     --light-color: #F4F4FD;
-}
-:root{
+
     --primary-text-color: #434455;
-}
-:root{
+
     --secondary-text-color: #8E8F99;
-}
-:root{
+
     --accent-color: #E7E9FC;
-}
-:root{
+
     --success-color: #31D0AA;
-}
-:root{
+
     --prassed-state-color: #404BBF
 }
 
@@ -58,7 +51,6 @@ body{
 .link:hover,
 .link:focus {
     color: var(--brand-color);
-    text-decoration-line: underline;
 }
 
 
@@ -89,7 +81,6 @@ body{
 .logo:hover,
 .logo:focus {
     color: var(--brand-color);
-    text-decoration-line: underline;
 }
 
 /* .header-list {
